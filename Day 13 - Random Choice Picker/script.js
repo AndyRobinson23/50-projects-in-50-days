@@ -50,7 +50,7 @@ const randomSelect = function() {
 
             highlightTag(randomTag)
         }, 100);
-        
+
     }, times * 100);
 };
 
