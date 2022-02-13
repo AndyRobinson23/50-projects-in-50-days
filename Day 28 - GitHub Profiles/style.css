@@ -61,6 +61,7 @@ body {
 .profile-card__left img {
     border-radius: 50%;
     border: 10px solid #2a2a72;
+    height: 150px;
 }
 
 .profile-card__right {
