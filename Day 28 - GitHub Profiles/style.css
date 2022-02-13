@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    background-color: #262764;
+    padding: 2rem;
+}
+
+.form {
+    width: 100%;
+    max-width: 800px;
+}
+
+.form input {
+    font-size: 1.4rem;
+    font-family: inherit;
+    background-color: rebeccapurple;
+    border: none;
+    border-radius: 9px;
+    padding: 1.6rem 1.2rem;
+    width: 100%;
+    box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05), 0 15px 40px rgba(0, 0, 0, 0.1);
+    color: #fff;
+}
+
+.form input::placeholder {
+    color: #999;
+}
+
+.form input:focus {
+    outline: none;
+}
+
+.profile-card {
+    display: flex;
+    gap: 2rem;
+    max-width: 800px;
+    padding: 4rem;
+    background-color: rebeccapurple;
+    border-radius: 20px;
+    box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05), 0 15px 40px rgba(0, 0, 0, 0.1);
+    color: #fff;
+}
+
+.profile-card__left img {
+    border-radius: 50%;
+    border: 10px solid #2a2a72;
+}
+
+.profile-card__right {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.profile-card__name {
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+
+.profile-card__bio {
+    font-size: 1.2rem;
+}
+
+.profile-card__stats {
+    display: flex;
+    gap: 3.5rem;
+    list-style: none;
+    font-size: 1.2rem;
+}
+
+.profile-card__stat--number {
+    font-size: 1.4rem;
+}
+
+.profile-card__repos {
+    text-decoration: none;
+    color: #fff;
+    background-color: #212a72;
+    font-size: 0.9rem;
+    padding: 0.25rem 0.5rem;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+    display: inline-block;
+}
