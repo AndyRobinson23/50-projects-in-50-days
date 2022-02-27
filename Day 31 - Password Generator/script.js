@@ -62,7 +62,7 @@ function getRandomLower() {
 }
 
 function getRandomUpper() {
-    // Generate random lowercase letter
+    // Generate random uppercase letter
     return String.fromCharCode(Math.floor(Math.random() * 26) + 65);
 }
 
