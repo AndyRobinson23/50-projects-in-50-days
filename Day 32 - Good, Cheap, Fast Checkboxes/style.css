@@ -21,6 +21,11 @@ body {
     margin: 10px 0;
 }
 
+.toggle-container span {
+    width: 2rem;
+    margin-left: 15px;
+}
+
 .toggle {
     visibility: hidden;
 }
@@ -31,7 +36,6 @@ body {
     border-radius: 50px;
     cursor: pointer;
     display: inline-block;
-    margin: 0 15px 0;
     width: 80px;
     height: 40px;
 }
